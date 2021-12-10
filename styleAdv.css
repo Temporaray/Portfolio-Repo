@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #1d1dad;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+hr {
+    width: 100px;
+    height: 5px;
+    background-color: darkred;
+}
+
+/*---------------------------------------------------*/
+
+#works {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 600px;
+    background-color: chartreuse;
+}
+
+/*---------------------------------------------------*/
+.row {
+    padding: 20px;
+}
+
+
+.card {
+    box-shadow: 4px 4px 8px 5px red;
+    transition: 0.7s;
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 16px 10px rgb(29, 56, 173);
+    width: 25%;
+    height: 380px;
+    border: 5px solid black;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bolder;
+    color: darkred;
+}
+
+a:hover {
+    color: darkblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*---------------------------------------------------*/
+
+#skills {
+    height: 500px;
+    background-color: aqua;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+/*---------------------------------------------------*/
+.container-bar {
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #007013;
+}
+
+.css {
+    width: 80%;
+    background-color: #0066f5;
+}
+
+.js {
+    width: 65%;
+    background-color: #70005d;
+}
+
+/*---------------------------------------------------*/
